@@ -1,23 +1,27 @@
+
+
 .overskrift{
-
+  background-color: #317B79;
+  width: 100%;
+  height: 20vh;
+  margin-top: 1%;
 }
 
-.forsideknap{
+.spase1{
+  background-color: #273F72;
+  width: 100%;
+  height: 6.5vh;
 
 }
-
-.minkontoknap{
-
+.menutext{
+  margin-left: 10%;
+  font-size: 30px;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
 }
 
-.minebestillingerknap{
-
-}
-
-.kurvknap{
-
-}
-
-.logudknap{
-
+.spase2{
+  background-color: #273F72;
+  width: 100%;
+  height: 44vh;
 }
