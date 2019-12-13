@@ -1,0 +1,14 @@
+.page{
+  width: 80%;
+  height: 100vh;
+  background-color: black;
+
+}
+
+.pagewidth{
+  width: 20%;
+  height: 100%;
+  background-color: blue;
+
+
+}
