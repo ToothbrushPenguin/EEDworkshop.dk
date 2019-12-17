@@ -1,10 +1,18 @@
 
 
 .overskrift{
-  background-color: #317B79;
+  background-color: #3A2A75;
   width: 100%;
-  height: 20vh;
-  margin-top: 1%;
+  height: 6.5vh;
+  margin-top: 2vh
+}
+
+.overskrift2txt{
+  margin-left: 10%;
+  font-size: 22px;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
 }
 
 .spase1{
@@ -14,14 +22,48 @@
 
 }
 .menutext{
+  padding-top: calc(6.5vh - 1.5em);
   margin-left: 10%;
-  font-size: 30px;
+  font-size: 25px;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
+  cursor: pointer;
 }
 
 .spase2{
   background-color: #273F72;
   width: 100%;
-  height: 44vh;
+  height: 41vh;
+}
+
+.spasemini{
+  background-color: #273F72;
+  width: 100%;
+  height: 3.25vh;
+}
+
+.textmini{
+  margin-left: 15%;
+  font-size: 15px;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+}
+
+.katbox{
+  display: none;
+  margin: 0;
+}
+
+.menuicon{
+  width: 50px;
+  height: 50px;
+
+}
+
+.closeicon{
+  width: 15px;
+  height: 15px;
+  float: right;
+  margin-right: 10%;
 }

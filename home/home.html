@@ -12,24 +12,74 @@
   </head>
   <body>
 
-    <div class="pagewidth">
 
-      <div class="overskrift"><div class="menutext">Centernavn</div></div>
-      <div class="spase1"></div>
-      <div class="spase1"><div class="menutext">Forside</div></div>
-      <div class="spase1"><div class="menutext">Min Konto</div></div>
-      <div class="spase1"><div class="menutext">Mine Bestillinger</div></div>
-      <div class="spase1"><div class="menutext">Kurv</div></div>
-      <div class="spase1"><div class="menutext">Log ud</div></div>
-      <div class="spase2"></div>
+
+<div class="pagewidth" onmousedown="return false" style="display:none" id="mySidebar">
+    <div class="overskrift">
+      <div class="menutext">
+        Centernavn
+        <img src="close-button.svg" onclick="w3_close()" class= closeicon>
+      </div>
     </div>
 
-    <div class="page">
+    <div class="overskrift"><div class="overskrift2txt">Kontaktperson</div></div>
+
+    <div class="spase1"></div>
+    <div class="spase1"><div class="menutext">Forside</div></div>
+    <div class="spase1"><div class="menutext">Min Konto</div></div>
+    <div class="spase1"><div class="menutext">Mine Bestillinger</div></div>
+    <div class="spase1"><div class="menutext">Kurv</div></div>
+
+    <div class="spase1" onclick="katopenclose()"><div class="menutext">Kategorier</div></div>
+      <div id="kat" class="katbox">
+        <div class="spasemini"><div class="textmini">Forside</div></div>
+        <div class="spasemini"><div class="textmini">Forside</div></div>
+        <div class="spasemini"><div class="textmini">Forside</div></div>
+        <div class="spasemini"><div class="textmini">Forside</div></div>
+        <div class="spasemini"><div class="textmini">Forside</div></div>
+      </div>
+
+    <div class="spase1"><div class="menutext">Log ud</div></div>
+    <div class="spase2"></div>
+</div>
+
+    <div id="main">
+
+      <img src="menu.svg" id="openNav" class="menuicon" onclick="w3_open()">
+
       <div class="produktmain">
 
       </div>
     </div>
 
+    <script>
+      function w3_open() {
+        document.getElementById("main").style.marginLeft = "270px";
+        document.getElementById("mySidebar").style.width = "270px";
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("openNav").style.display = 'none';
+      }
+      function w3_close() {
+        document.getElementById("main").style.marginLeft = "0px";
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("openNav").style.display = "inline-block";
+      }
+
+      var open = false;
+      function katopenclose(){
+
+        if (open) {
+          document.getElementById("kat").style.height = "16.25vh";
+          document.getElementById("kat").style.display = "block";
+        }else{
+          document.getElementById("kat").style.height = "0vh";
+          document.getElementById("kat").style.display = "none";
+        }
+        open=!open
+
+
+      }
+    </script>
 
   </body>
 </html>

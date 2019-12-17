@@ -1,13 +1,14 @@
 .page{
-  width: 85%;
-  height: 100vh;
-  background-color: black;
+  width: auto;
+  height: auto;
+
 
 }
 
 .pagewidth{
-  width: 15%;
+  width: 270px;
   height: 100%;
-  background-color: blue;
+  background-color: #3A2A75;
+  position: fixed;
 
 }
