@@ -1,14 +1,46 @@
-<html>
+<html lang="en" dir="ltr">
 
 <head>
         <link rel="stylesheet" href="./style.css">
         <meta charset="utf-8">
+        <link rel="stylesheet" href="./home/homecss.css">
+        <link rel="stylesheet" href="./sidemenu/sidemenu.css">
+        <link rel="stylesheet" href="./sidemenu/mainsidemenu.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
+<body>
+
+<div class="pagewidth" onmousedown="return false" style="display:none" id="mySidebar">
+    <div class="overskrift"><div class="menutext">
+        Centernavn
+        <img src="./home/close-button.svg" onclick="w3_close()" class= closeicon>
+      </div></div>
+    <div class="overskrift"><div class="overskrift2txt">Kontaktperson</div></div>
+
+    <div class="spase1"><div class="menutext">Forside</div></div>
+    <div class="spase1"><div class="menutext">Min Konto</div></div>
+    <div class="spase1"><div class="menutext">Mine Bestillinger</div></div>
+    <div class="spase1"><div class="menutext">Kurv</div></div>
+
+    <div class="spase1" onclick="katopenclose()"><div class="menutext">Kategorier</div></div>
+      <div id="kat" class="katbox">
+        <div class="spasemini"><div class="textmini">Hele året</div></div>
+        <div class="spasemini"><div class="textmini">Påske</div></div>
+        <div class="spasemini"><div class="textmini">Fastelavn</div></div>
+        <div class="spasemini"><div class="textmini">Jul</div></div>
+        <div class="spasemini"><div class="textmini">Halloween</div></div>
+      </div>
+
+    <div class="spase1"><div class="menutext">Log ud</div></div>
+    <div class="spase2"></div>
+</div>
+
+<div id="main">
 <div class="forside">
        <div class="bluegradient">
        <div class="forsidemain">
               <header>
-                     <img src="./logo/menu.svg" id=menu>
+                     <img src="./logo/menu.svg" id=menu id="openNav" onclick="w3_open()">
                      <h1>Workshopen.dk</h1>
               </header>
               <menu>
@@ -19,11 +51,11 @@
                      <h1 style="font-size: 40;">Velkommen til workshopen.dk</h1>
               </velkommen>
               <box1>
-                     
+
                      <div class="forsideboxhead">
                             <h1>om os</h1>
                      </div>
-                     
+
                      <h3>Hvem er vi?</h3>
                      <p>Vi er en grupper mennesker, som elsker at have det sjovt med børn, og være kreative. Vi er altid klar til at hjælpe,  </p>
                      <h3>Hvad er det vi gør?</h3>
@@ -68,9 +100,9 @@
                             <p>Start med at tjekke vores Om os, ellers giv os et kald eller send en Mail</p>
               </box6>
               <down>
-                            
+
                             <p>Vores workshops</p>
-                     
+
                             <img src="./logo/down.svg" >
               </down>
        </div>
@@ -80,8 +112,8 @@
 
 
 
-              
-       
+
+
 </div>
 
 
@@ -130,7 +162,7 @@
                 <img src="./img/halloween.png"  class= "productpicture"/>
                 <p>Hvis uhyggen er ved at falde over det danske land, kan det være du skal have lokket nogle af de små monstre ind. Til det har vi aktiviteter som... </p>
          </div>
-       
+
          <div class="productbox">
                 <div class="productboxhead">
                 <h1>Om os</h1>
@@ -140,8 +172,8 @@
          </div>
 
     </div>
-    
-    
+
+
 
 
 
@@ -167,6 +199,37 @@
                      <p>hej</p>
               </div>
        </div>
+</div>
+
+<script>
+  function w3_open() {
+    document.getElementById("main").style.marginLeft = "270px";
+    document.getElementById("mySidebar").style.width = "270px";
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("openNav").style.display = 'none';
+  }
+  function w3_close() {
+    document.getElementById("main").style.marginLeft = "0px";
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("openNav").style.display = "inline-block";
+  }
+
+  var open = false;
+  function katopenclose(){
+
+    if (open) {
+      document.getElementById("kat").style.height = "16.25vh";
+      document.getElementById("kat").style.display = "block";
+    }else{
+      document.getElementById("kat").style.height = "0vh";
+      document.getElementById("kat").style.display = "none";
+    }
+    open=!open
+
+
+  }
+</script>
+</body>
 
 
 
