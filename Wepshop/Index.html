@@ -43,25 +43,30 @@
                      <img src="./logo/menu.svg" id=menu id="openNav" onclick="w3_open()">
                      <h1>Workshopen.dk</h1>
               </header>
-              <menu>
-                     <h3>Om Os</h3>
-                     <h3>Log Ind</h3>
-              </menu>
-              <velkommen>
-                     <h1 style="font-size: 40;">Velkommen til workshopen.dk</h1>
-              </velkommen>
-              <box1>
 
+              <menu>
+                <h3>Om Os</h3>
+                <h3>Log Ind</h3>
+              </menu>
+
+
+              <velkommen>
+                     <h1 class="forsidevelkomen";> Velkommen til workshopen.dk</h1>
+              </velkommen>
+
+              <box1>
                      <div class="forsideboxhead">
                             <h1>om os</h1>
                      </div>
-
                      <h3>Hvem er vi?</h3>
                      <p>Vi er en grupper mennesker, som elsker at have det sjovt med børn, og være kreative. Vi er altid klar til at hjælpe,  </p>
+                     <br>
                      <h3>Hvad er det vi gør?</h3>
                      <p>Vi står og laver små workshops for børnene. Vi tager rundt til et vælg af arrangementer, med vores lille workshophus. </p>
+                     <br>
                      <h3>Hvorfor vælge os?</h3>
-                     <p>Vi kan hjælpe jer, med at bruge længere tid hos jer. Vi er altid klar på at arbejde på trods af vind og vejr</p></box1>
+                     <p>Vi kan hjælpe jer, med at bruge længere tid hos jer. Vi er altid klar på at arbejde på trods af vind og vejr</p>
+              </box1>
               <box2>
                      <div class="forsideboxhead">
                              <h1>Nyhedsbrev</h1>
@@ -74,7 +79,9 @@
                                    <h1>kontakt</h1>
                             </div>
                             <p>Danni Hedegaard</p>
+                            <br>
                             <p>E-mail: Danni.Dahl@gmail.com</p>
+                            <br>
                             <p>Tlf: 30360086</p>
               </box3>
               <box4>
@@ -87,11 +94,11 @@
                             <div class="forsideboxhead">
                                           <h1>Katagorier</h1>
                             </div>
-                            <p>- Hele Året</p>
-                            <p>- Påske </p>
-                            <p>- Fastelavn</p>
-                            <p>- Jul</p>
-                            <p>- Halloween</p>
+                            <p>-Hele Året</p>
+                            <p>-Påske </p>
+                            <p>-Fastelavn</p>
+                            <p>-Jul</p>
+                            <p>-Halloween</p>
               </box5>
               <box6>
                             <div class="forsideboxhead">
@@ -203,13 +210,13 @@
 
 <script>
   function w3_open() {
-    document.getElementById("main").style.marginLeft = "270px";
-    document.getElementById("mySidebar").style.width = "270px";
+    document.getElementById("main").style.marginLeft = "20vw";
+    document.getElementById("mySidebar").style.width = "20vw";
     document.getElementById("mySidebar").style.display = "block";
     document.getElementById("openNav").style.display = 'none';
   }
   function w3_close() {
-    document.getElementById("main").style.marginLeft = "0px";
+    document.getElementById("main").style.marginLeft = "0vw";
     document.getElementById("mySidebar").style.display = "none";
     document.getElementById("openNav").style.display = "inline-block";
   }

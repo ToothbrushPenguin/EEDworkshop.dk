@@ -9,7 +9,7 @@
 
 .overskrift2txt{
   margin-left: 10%;
-  font-size: 22px;
+  font-size: 1vw;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
@@ -24,7 +24,7 @@
 .menutext{
   padding-top: calc(6.5vh - 1.5em);
   margin-left: 10%;
-  font-size: 25px;
+  font-size: 2vw;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
@@ -44,7 +44,7 @@
 
 .textmini{
   margin-left: 15%;
-  font-size: 15px;
+  font-size: 1vw;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
@@ -57,8 +57,8 @@
 
 
 .closeicon{
-  width: 15px;
-  height: 15px;
+  width: 1vw;
+  height: 1vw;
   float: right;
   margin-right: 10%;
 }
