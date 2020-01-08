@@ -10,6 +10,7 @@ body{
 
 h1{font-family: Segoe UI;}
 
+
 /*Forside*/
 .forside{
     background-color: black; /* fallback color */
@@ -56,24 +57,17 @@ h1{font-family: Segoe UI;}
     height: auto;
     background: #158D8B;
 }
+.forsideboxhead h1{
+    font-size: 1.5vw;
+    margin: 0 0 1vh 1.5vh;
+    font-family: Segoe UI;
+}
 
 .menu{
     display: inline;
     width: 6vh;
     height: 4vh;
 }
-
-br {
-    display: block;
-    margin-bottom: 0.5vw;
-}
-
-.forsideboxhead h1{
-        font-size: 1.5vw;
-        margin: 0 0 1vh 1.5vh;
-        font-family: Segoe UI;
-}
-
 
 header{
     grid-column: 1/18;
@@ -86,15 +80,19 @@ header h1{
 }
 
 menu{
-    grid-column: 18/25;
-    grid-row:1/2;
     display: inline;
-    justify-self: end;
+    margin: 0;
+    position: fixed;
+    right: 2vw;
+    top: 2vh;
+
+
 }
 
 menu h3{
   display: inline;
   font-size: 1vw;
+  margin: 0;
 }
 
 
@@ -163,6 +161,10 @@ down{
 
 }
 
+down img{
+    height: 1vw;
+    width: 1vw;
+}
 
 
 
