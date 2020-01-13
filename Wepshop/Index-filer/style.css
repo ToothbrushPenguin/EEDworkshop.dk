@@ -158,7 +158,7 @@ box6{
 
 down{
     grid-column: 1/25;
-    grid-row:1/14;
+    grid-row:12;
     text-align: center;
 
 }
@@ -175,24 +175,23 @@ down img{
 /*Produktbokse*/
 .productmain{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25vw ,1fr) );
-    grid-template-rows: repeat(auto-fit, minmax(5vw ,1fr) );
+    grid-template-columns: repeat(auto-fit, minmax(22vw ,1fr) );
+    grid-template-rows: repeat(auto-fit, minmax(10vw ,1fr) );
     grid-gap: 1vh;
-    width: 90%;
-    margin: 5%;
+    width: 85%;
+    margin: 7.5%;
 
  }
 
 
 .productbox p{
     font-size: 1vw;
-    padding-left: 5;
     color: black
 }
 
 .productboxhead{
     width: 100%;
-    height: 5vh;
+    height: 3.5vw;
     background: #158D8B;
 
 }
@@ -207,18 +206,18 @@ down img{
 }
 
 .logo {
-    width: 5vh;
-    height: 5vh;
+    width: 2.5vw;
+    height: 2.5vw;
     float: right;
-    position: relative;
     display: inline;
-    top: 5;
     stroke: white;
+    margin-right: 0.5vw;
+    margin-top: 0.3vw;
   }
 
   .productpicture{
     width: 100%;
-    height: 18vw;
+    height: 12vw;
   }
 
 
@@ -229,15 +228,15 @@ down img{
     width: 100%;
     bottom: 0;
     display: grid;
-    padding: 1vw;
-    grid-template-columns: repeat(auto-fit, minmax(25vh ,2fr));
+    padding-left: 7.5%;
+    grid-template-columns: repeat(auto-fit, minmax(20vh ,2fr));
     grid-gap: 1vw;
 }
 
 .footer h1{
-    font-size: 2vw;
+    font-size: 1.2vw;
 }
 
 .footer p{
-    font-size: 1vw;
+    font-size: 0.8vw;
 }

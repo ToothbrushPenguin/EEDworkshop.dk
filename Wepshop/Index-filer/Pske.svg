@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52" height="43" viewBox="0 0 52 43">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_389" data-name="Rectangle 389" width="52" height="43" transform="translate(1152.993 1236)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_10" data-name="Mask Group 10" transform="translate(-1152.993 -1236)" clip-path="url(#clip-path)">
+    <g id="easter-egg" transform="translate(1161.184 1236)">
+      <g id="Group_145" data-name="Group 145" transform="translate(0)">
+        <g id="Group_144" data-name="Group 144">
+          <path id="Path_2042" data-name="Path 2042" d="M20.727,0c-10,0-17.835,12.421-17.835,23.98,0,11.653,7.954,19.278,17.835,19.278S38.562,35.637,38.562,23.98,30.672,0,20.727,0Zm0,2.821c5.378,0,9.992,4.555,12.656,10.379a2.462,2.462,0,0,1-3.454-.092,5.151,5.151,0,0,0-7.428,0,2.459,2.459,0,0,1-3.548,0,5.148,5.148,0,0,0-7.428,0,2.462,2.462,0,0,1-3.454.092C10.735,7.376,15.349,2.821,20.727,2.821ZM7.009,15.892a5.145,5.145,0,0,0,6.456-.789,2.463,2.463,0,0,1,3.548,0,5.157,5.157,0,0,0,7.428,0,2.463,2.463,0,0,1,3.548,0,5.145,5.145,0,0,0,6.456.789,27.251,27.251,0,0,1,.987,3.856H6.022A27.244,27.244,0,0,1,7.009,15.892ZM20.727,40.437A14.4,14.4,0,0,1,6.6,30.228a5.255,5.255,0,0,0,1.376-1.018,2.463,2.463,0,0,1,3.548,0,5.157,5.157,0,0,0,7.428,0,2.459,2.459,0,0,1,3.548,0,5.157,5.157,0,0,0,7.428,0,2.463,2.463,0,0,1,3.548,0,5.253,5.253,0,0,0,1.376,1.018A14.4,14.4,0,0,1,20.727,40.437ZM31.7,25.633a5.146,5.146,0,0,0-3.714,1.582,2.463,2.463,0,0,1-3.548,0,5.149,5.149,0,0,0-7.428,0,2.463,2.463,0,0,1-3.548,0,5.151,5.151,0,0,0-7.428,0c-.044.046-.09.089-.137.131a21.069,21.069,0,0,1-.265-3.365q0-.7.045-1.411H35.773q.044.709.045,1.411a21.088,21.088,0,0,1-.265,3.365A5.284,5.284,0,0,0,31.7,25.633Z" transform="translate(-2.891)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_147" data-name="Group 147" transform="translate(16.463 8.464)">
+        <g id="Group_146" data-name="Group 146">
+          <ellipse id="Ellipse_32" data-name="Ellipse 32" cx="1.372" cy="1.411" rx="1.372" ry="1.411" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_149" data-name="Group 149" transform="translate(24.695 8.464)">
+        <g id="Group_148" data-name="Group 148">
+          <ellipse id="Ellipse_33" data-name="Ellipse 33" cx="1.372" cy="1.411" rx="1.372" ry="1.411" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_151" data-name="Group 151" transform="translate(8.232 8.464)">
+        <g id="Group_150" data-name="Group 150">
+          <ellipse id="Ellipse_34" data-name="Ellipse 34" cx="1.372" cy="1.411" rx="1.372" ry="1.411" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_153" data-name="Group 153" transform="translate(16.463 31.033)">
+        <g id="Group_152" data-name="Group 152">
+          <ellipse id="Ellipse_35" data-name="Ellipse 35" cx="1.372" cy="1.411" rx="1.372" ry="1.411" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_155" data-name="Group 155" transform="translate(26.067 31.033)">
+        <g id="Group_154" data-name="Group 154">
+          <ellipse id="Ellipse_36" data-name="Ellipse 36" cx="1.372" cy="1.411" rx="1.372" ry="1.411" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_157" data-name="Group 157" transform="translate(6.86 31.033)">
+        <g id="Group_156" data-name="Group 156">
+          <ellipse id="Ellipse_37" data-name="Ellipse 37" cx="1.372" cy="1.411" rx="1.372" ry="1.411" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
