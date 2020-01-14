@@ -19,7 +19,7 @@
 
             <input type="file" name="pic" accept="image/*"><br>
 
-            <input type="submit" name="reg-submit" value="Opret"></div>
+            <input type="submit" name="reg-submit" value="Opret">
 
     </form>
 </html>

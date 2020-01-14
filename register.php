@@ -17,7 +17,7 @@
 
             <input type="text" name="gade" value="" placeholder="gade"><br>
 
-            <input type="submit" name="reg-submit" value="Opret"></div>
+            <input type="submit" name="reg-submit" value="Opret">
 
     </form>
 </html>

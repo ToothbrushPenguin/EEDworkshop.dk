@@ -1,0 +1,170 @@
+<html dir="ltr" lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/forsidestyle.css">
+<link rel="stylesheet" href="./css/sidemenu.css">
+</head>
+
+<body>
+  <div class="pagewidth" onmousedown="return false" style="display:none" id="mySidebar">
+    <div class="overskrift">
+      <div class="menutext">Centernavn
+        <img src="logo/close-button.svg" onclick="w3_close()" class="closeicon">
+      </div>
+    </div>
+    <div class="overskrift"><div class="overskrift2txt">Kontaktperson</div></div>
+    <div class="spase1"><div class="menutext">Forside</div></div>
+    <div class="spase1"><div class="menutext">Min Konto</div></div>
+    <div class="spase1"><div class="menutext">Mine Bestillinger</div></div>
+    <div class="spase1"><div class="menutext">Kurv</div></div>
+
+    <div class="spase1" onclick="katopenclose()"><div class="menutext">Kategorier</div></div>
+    <div id="kat" class="katbox">
+      <div class="spasemini"><div class="textmini">Hele året</div></div>
+      <div class="spasemini"><div class="textmini">Påske</div></div>
+      <div class="spasemini"><div class="textmini">Fastelavn</div></div>
+      <div class="spasemini"><div class="textmini">Jul</div></div>
+      <div class="spasemini"><div class="textmini">Halloween</div></div>
+    </div>
+
+    <div class="spase1"><div class="menutext">Log ud</div></div>
+    <div class="spase2"></div>
+  </div>
+
+<div id="main">
+
+<div class="">
+
+</div>
+
+
+<div class="productmain">
+
+<div class="productbox">
+<div class="productboxhead">
+<h1>Hele Året</h1>
+<img src="./logo/året.svg" class="logo">
+</div>
+<img src="./img/året.png" class="productpicture">
+<p>Hvis du har brug for en workshop, og det ikke er en højtid er det her du skal kigge. Her finder du aktiviteter som...</p>
+</div>
+<div class="productbox">
+<div class="productboxhead" style="background-color: #851010;">
+<h1>Jul</h1>
+<img src="./logo/jul.svg" class="logo">
+</div>
+<img src="./img/jul.png" class="productpicture">
+<p>Sjove udklædninger og tøndeslagning, de to vigtigste ting ved
+fastelavn. Vi kan hjælpe jer med at tiltrække en masse små prinser og
+prinsesser . Tjek her og find aktiviteter som.... </p>
+</div>
+
+<div class="productbox">
+<div class="productboxhead" style="background-color: #856810;">
+<h1>Påske</h1>
+<img src="./logo/Påske.svg" class="logo">
+</div>
+<img src="./img/påske.png" class="productpicture">
+<p>Hvis det er ved at være påske, skal du kigge her. Vi har en masse
+aktiviteter, som kan hjælpe jer med at tiltrække kunder i ferierne.
+Som.... </p><br>
+</div>
+
+<div class="productbox">
+<div class="productboxhead" style="background-color:#31125B">
+<h1>Fastelavn</h1>
+<img src="./logo/fastelavn.svg" class="logo">
+</div>
+<img src="./img/fastelavn.png" class="productpicture">
+<p>Sjove udklædninger og tøndeslagning, de to vigtigste ting ved
+fastelavn. Vi kan hjælpe jer med at tiltrække en masse små prinser og
+prinsesser . Tjek her og find aktiviteter som.... </p>
+</div>
+
+<div class="productbox">
+<div class="productboxhead" style="background-color: #AA512E;">
+<h1>halloween</h1>
+<img src="./logo/halloween.svg" class="logo">
+</div>
+<img src="./img/halloween.png" class="productpicture">
+<p>Hvis uhyggen er ved at falde over det danske land, kan det være du
+skal have lokket nogle af de små monstre ind. Til det har vi aktiviteter
+ som... </p>
+</div>
+
+<div class="productbox">
+<div class="productboxhead">
+<h1>Om os</h1>
+</div>
+<img src="./img/about.png" class="productpicture">
+<p>Hvis du vil vide mere om hvad vi gør, eller hvordan det fungere kan
+du trykke her. Hvis du ikke finde det du mangler kan du altid sende en
+mail eller giv os et ring </p>
+</div>
+
+</div>
+
+
+
+
+
+<div class="footer">
+<div class="footerelement">
+<h1>Kontakt</h1>
+<p>Danni Hedegaard</p>
+<p>E-mail: Danni.Dahl@gmail.com</p>
+<p>Tlf: 30360086</p>
+</div>
+<div class="footerelement">
+<h1>Hvor holder vi til?</h1>
+<p>Snedkervej 26</p>
+<p>6740 Bramming</p>
+<p></p>
+</div>
+<div class="footerelement">
+<h1>Nyhedsbrev</h1>
+<p>hej</p>
+</div>
+<div class="footerelement">
+<h1>Følg os!</h1>
+<p>hej</p>
+</div>
+</div>
+</div>
+
+<script>
+  function w3_open() {
+    document.getElementById("main").style.marginLeft = "20vw";
+    document.getElementById("mySidebar").style.width = "20vw";
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("openNav").style.display = 'none';
+  }
+  function w3_close() {
+    document.getElementById("main").style.marginLeft = "0vw";
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("openNav").style.display = "inline-block";
+  }
+
+  var open = false;
+  function katopenclose(){
+
+    if (open) {
+      document.getElementById("kat").style.height = "16.25vh";
+      document.getElementById("kat").style.display = "block";
+    }else{
+      document.getElementById("kat").style.height = "0vh";
+      document.getElementById("kat").style.display = "none";
+    }
+    open=!open
+
+
+  }
+</script>
+
+
+
+
+
+</body></html>
