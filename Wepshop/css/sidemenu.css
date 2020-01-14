@@ -1,4 +1,22 @@
+body {
+  background-color: #ffffff;
+  height: auto;
+  display: flex;
+  margin: 0;
 
+}
+
+.page{
+  width: auto;
+  height: auto;
+}
+
+.pagewidth{
+  width: 27vw;
+  height: 100%;
+  background-color: #158D8B;
+  position: fixed;
+}
 
 .overskrift{
   background-color: #158D8B;

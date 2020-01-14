@@ -14,7 +14,7 @@ h1{font-family: Segoe UI;}
 /*Forside*/
 .forside{
     background-color: black; /* fallback color */
-    background-image: url("Index-filer/forside.jpg");
+    background-image: url("./img/forside.jpg");
     background-position: center;
     background-size: cover;
     height: 100vh;
