@@ -1,0 +1,50 @@
+/*productpage*/
+.top{
+    background-color: black; /* fallback color */
+    background-image: url("../img/forside.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+.bluegradient{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 53, 141, 0.40);
+}
+
+.topmain{
+    height: 100%;
+    margin: 0 2vw 0 2vw;
+    display: grid;
+    grid-template-columns: repeat(24, 1fr );
+    grid-auto-columns: minmax(10vw, auto);
+    grid-template-rows: repeat(12, 1fr );
+    grid-gap: 1vw;
+}
+
+.kategori{
+    height: 20vw;
+    width: 90vw;
+    margin: 0;
+    display: inline;
+
+}
+
+.kategori_logo{
+    height: 20vw;
+    width: 20vw;
+    margin: 0;
+    display: inline;
+    float: left;
+
+}
+
+.kategori_text{
+    height: 40vw;
+    width: 67vw;
+    margin: 0;
+    margin-left: 3vw;
+    display: inline;
+    float: left;
+}

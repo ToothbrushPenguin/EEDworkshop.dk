@@ -1,7 +1,6 @@
 body {
   background-color: #ffffff;
   height: auto;
-  display: flex;
   margin: 0;
 
 }
@@ -44,6 +43,7 @@ body {
   margin-left: 10%;
   font-size: 2vw;
   color: #ffffff;
+  font-family: 'Roboto', sans-serif;
   font-family: Segoe UI;
   cursor: pointer;
 }
@@ -64,6 +64,7 @@ body {
   margin-left: 15%;
   font-size: 1vw;
   color: #ffffff;
+  font-family: 'Roboto', sans-serif;
   font-family: Segoe UI;
   cursor: pointer;
 }
