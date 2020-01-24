@@ -24,26 +24,13 @@ header{
     grid-row:0/15;
     display: inline;
     margin: 0;
-    margin-top: 1vh;
+    margin-top: 1vw;
 }
 header h1{
     display: inline;
     font-size: 3vw;
     margin: 0;
     margin-left: 2vw;
-}
-
-menu{
-    display: inline;
-    margin: 0;
-    float: right;
-    margin-top: 2vw;
-}
-
-menu h3{
-  display: inline;
-  font-size: 1vw;
-  margin: 1vw;
 }
 
 /*Produktbokse*/
@@ -78,6 +65,7 @@ menu h3{
     font-family: Segoe UI;
     position: relative;
     left: 1vw;
+    top: 0.5vw;
     font-size: 1.5vw;
     color: white;
     display: inline;

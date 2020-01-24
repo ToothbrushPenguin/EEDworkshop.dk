@@ -1,4 +1,18 @@
-/*productpage*/
+
+menu{
+    display: inline;
+    margin: 0;
+    margin-top: 1vw;
+    margin-left: 52vw;
+    padding: 0;
+}
+
+menu h3{
+  display: inline;
+  font-size: 1vw;
+  margin: 1vw;
+}
+
 .top{
     background-color: black; /* fallback color */
     background-image: url("../img/forside.jpg");
@@ -35,16 +49,28 @@
     height: 20vw;
     width: 20vw;
     margin: 0;
+    margin-left: 4.3vw;
     display: inline;
     float: left;
 
 }
 
-.kategori_text{
-    height: 40vw;
-    width: 67vw;
+.kategori_overskrift{
+    height: 2vw;
+    width: 62.7vw;
     margin: 0;
     margin-left: 3vw;
+    font-size: 1.5vw;
+    display: inline;
+    float: left;
+}
+
+.kategori_text{
+    height: 38vw;
+    width: 62.7vw;
+    margin: 0;
+    margin-left: 3vw;
+    font-size: 1vw;
     display: inline;
     float: left;
 }

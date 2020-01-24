@@ -1,4 +1,17 @@
 /*Forside*/
+menu{
+    display: inline;
+    margin: 0;
+    float: right;
+    margin-top: 2vw;
+}
+
+menu h3{
+  display: inline;
+  font-size: 1vw;
+  margin: 1vw;
+}
+
 .forside{
     background-color: black; /* fallback color */
     background-image: url("../img/forside.jpg");
