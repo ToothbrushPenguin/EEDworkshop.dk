@@ -1,0 +1,139 @@
+menu{
+    display: inline;
+    margin: 0;
+    float: right;
+    margin-top: 2vw;
+}
+
+menu h3{
+  display: inline;
+  font-size: 1vw;
+  margin: 1vw;
+}
+
+
+.kurvbace{
+  grid-column: 3/24;
+  grid-row:3/8;
+  width: 80vw;
+  height: auto;
+  float: left;
+}
+.kurv{
+  width: 50vw;
+  height: 28vw;
+  margin: 0;
+  margin-right: 2vw;
+  display: inline-block;
+  float: left;
+}
+.kurv_overskrift{
+  width: 100%;
+  height: 3vw;
+  background-color: #158D8B;
+  margin: 0;
+}
+.kurv_overskrift h1{
+  margin: 0;
+  margin-left: 0.6vw;
+  display: inline-block;
+  float: left;
+}
+.kurv_prudukter_op{
+  width: 100%;
+  height: 25vw;
+  margin: 0;
+  overflow-x: none;
+  overflow-y: scroll;
+}
+.kurv_remove{
+  width: 1vw;
+  height: 1vw;
+  margin: 0;
+  margin-right: 2.9vw;
+  margin-top: 1vw;
+  display: inline-block;
+  float: right;
+}
+
+.kurv_prudukter{
+  width: 100%;
+  height: 5vw;
+  margin: 0;
+  background-color: grey;
+}
+.kurv_prudukter_icon{
+  width: 4vw;
+  height: 4vw;
+  margin: 0;
+  margin-left: 0.5vw;
+  margin-top: 0.5vw;
+  display: inline-block;
+  float: left;
+}
+.kurv_prudukter_tabeldiv{
+  width: 39.75vw;
+  height: 100%;
+  margin: 0;
+  display: inline-block;
+  float: left;
+}
+.kurv_prudukter_tabel{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 1vw;
+}
+.kurv_prudukter_remove{
+  width: 1.5vw;
+  height: 1.5vw;
+  margin: 0;
+  display: inline-block;
+  float: right;
+  margin-right: 1.75vw;
+  margin-top: 1.75vw;
+}
+
+
+.total{
+  width: 28vw;
+  height: 10vw;
+  margin: 0;
+  background-color: #158D8B;
+  display: inline-block;
+}
+
+
+.binfo{
+  width: 28vw;
+  height: 17vw;
+  margin: 0;
+  margin-top: 1vw;
+  background-color: #158D8B;
+  display: inline-block;
+
+}
+
+.forside{
+    background-color: black; /* fallback color */
+    background-image: url("../img/forside.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 82.3vh;
+}
+
+.bluegradient{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 53, 141, 0.40);
+}
+
+.forsidemain{
+    height: 100%;
+    margin: 0 2vw 0 2vw;
+    display: grid;
+    grid-template-columns: repeat(24, 1fr );
+    grid-auto-columns: minmax(10vw, auto);
+    grid-template-rows: repeat(12, 1fr );
+    grid-gap: 1vw;
+}

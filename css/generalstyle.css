@@ -19,12 +19,14 @@ h1{font-family: Segoe UI;}
     padding: 0;
 }
 
+
 header{
     grid-column: 1/25;
     grid-row:0/15;
     display: inline;
     margin: 0;
     margin-top: 1vw;
+    width: 100%
 }
 header h1{
     display: inline;
@@ -44,9 +46,6 @@ header h1{
 
  }
 
-.productbox{
-  height: 20vw
-}
 
 .productbox p{
     font-size: 1vw;
@@ -97,6 +96,7 @@ header h1{
     padding-left: 7.5%;
     grid-template-columns: repeat(auto-fit, minmax(20vh ,2fr));
     grid-gap: 1vw;
+
 }
 
 .footer h1{

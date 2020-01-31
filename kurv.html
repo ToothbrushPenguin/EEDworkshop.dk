@@ -1,0 +1,154 @@
+<html dir="ltr" lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/generalstyle.css">
+<link rel="stylesheet" href="./css/kurvstyle.css">
+<link rel="stylesheet" href="./css/sidemenu.css">
+</head>
+
+<body>
+  <div class="pagewidth" onmousedown="return false" style="display:none" id="mySidebar">
+    <div class="overskrift">
+      <div class="menutext">Centernavn
+        <img src="./logo/close-button.svg" onclick="w3_close()" class="closeicon">
+      </div>
+    </div>
+    <div class="overskrift"><div class="overskrift2txt">Kontaktperson</div></div>
+    <div class="spase1"><div class="menutext">Forside</div></div>
+    <div class="spase1"><div class="menutext">Min Konto</div></div>
+    <div class="spase1"><div class="menutext">Mine Bestillinger</div></div>
+    <div class="spase1"><div class="menutext">Kurv</div></div>
+
+    <div class="spase1" onclick="katopenclose()"><div class="menutext">Kategorier</div></div>
+    <div id="kat" class="katbox">
+      <div class="spasemini"><div class="textmini">Hele året</div></div>
+      <div class="spasemini"><div class="textmini">Påske</div></div>
+      <div class="spasemini"><div class="textmini">Fastelavn</div></div>
+      <div class="spasemini"><div class="textmini">Jul</div></div>
+      <div class="spasemini"><div class="textmini">Halloween</div></div>
+    </div>
+
+    <div class="spase1"><div class="menutext">Log ud</div></div>
+    <div class="spase2"></div>
+  </div>
+
+<div id="main">
+<div class="forside">
+<div class="bluegradient">
+<div class="forsidemain">
+
+
+  <header>
+  <img src="./logo/menu.svg" class="menu" id="openNav" onclick="w3_open()"><h1>Workshopen.dk</h1><menu>
+  <h3>Om Os</h3><h3>Log Ind</h3>
+  </menu>
+  </header>
+
+
+<div class="kurvbace">
+  <div class="kurv">
+    <div class="kurv_overskrift">
+      <h1>Kurv</h1><img src="./logo/close-button.svg" class="kurv_remove">
+    </div>
+    <div class="kurv_prudukter_op">
+      <!-- her skal pruduterne være-->
+      <div class="kurv_prudukter">
+          <img src="./logo/jul.svg" class="kurv_prudukter_icon">
+          <div class="kurv_prudukter_tabeldiv">
+            <table class="kurv_prudukter_tabel">
+              <tr>
+                <td>Julebageri</td>
+                <td>Tid</td>
+                <td>Antal</td>
+                <td>Pris</td>
+              </tr>
+              <tr>
+                <td>22/12</td>
+                <td>11.00-15.00</td>
+                <td>200 børn</td>
+                <td>8999,95 kr.</td>
+              </tr>
+            </table>
+          </div>
+          <img src="./logo/close-button.svg" class="kurv_prudukter_remove">
+      </div>
+    </div>
+  </div>
+  <div class="total">
+    <div class="">
+
+    </div>
+  </div>
+  <div class="binfo">
+
+  </div>
+</div>
+
+
+
+</div>
+</div>
+</div>
+
+
+
+<div class="footer">
+<div class="footerelement">
+<h1>Kontakt</h1>
+<p>Danni Hedegaard</p>
+<p>E-mail: Danni.Dahl@gmail.com</p>
+<p>Tlf: 30360086</p>
+</div>
+<div class="footerelement">
+<h1>Hvor holder vi til?</h1>
+<p>Snedkervej 26</p>
+<p>6740 Bramming</p>
+<p></p>
+</div>
+<div class="footerelement">
+<h1>Nyhedsbrev</h1>
+<p>hej</p>
+</div>
+<div class="footerelement">
+<h1>Følg os!</h1>
+<p>hej</p>
+</div>
+</div>
+</div>
+
+<script>
+  function w3_open() {
+    document.getElementById("main").style.marginLeft = "20vw";
+    document.getElementById("mySidebar").style.width = "20vw";
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("openNav").style.display = 'none';
+  }
+  function w3_close() {
+    document.getElementById("main").style.marginLeft = "0vw";
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("openNav").style.display = "inline-block";
+  }
+
+  var open = false;
+  function katopenclose(){
+
+    if (open) {
+      document.getElementById("kat").style.height = "16.25vh";
+      document.getElementById("kat").style.display = "block";
+    }else{
+      document.getElementById("kat").style.height = "0vh";
+      document.getElementById("kat").style.display = "none";
+    }
+    open=!open
+
+
+  }
+</script>
+
+
+
+
+
+</body></html>
