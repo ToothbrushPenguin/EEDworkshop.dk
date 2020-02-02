@@ -1,0 +1,110 @@
+menu{
+    display: inline;
+    margin: 0;
+    float: right;
+    margin-top: 2vw;
+}
+
+menu h3{
+  display: inline;
+  font-size: 1vw;
+  margin: 1vw;
+}
+
+
+.loginbace{
+  grid-column: 9/24;
+  grid-row:3/8;
+  width: 30vw;
+  height: 20vw;
+  float: left;
+
+}
+.loginoverskrift{
+  width: 30vw;
+  height: 3vw;
+  margin: 0;
+  float: left;
+  background-color: #158D8B;
+}
+.loginoverskrift h1{
+  margin: 0;
+  margin-top: 0.65vw;
+  margin-left: 0.65vw;
+  display: inline-block;
+  font-size: 1.2vw;
+  float: left;
+}
+.logintextbace{
+  width: 30vw;
+  height: 17vw;
+  margin: 0;
+  float: left;
+  background-color: #273F72;
+}
+.loginindhold{
+  width: 20vw;
+  height: 12.5vw;
+  margin: 0;
+  margin-left:5vw;
+  margin-top:2.5vw;
+  float: left;
+  background-color: #273F72;
+}
+.loginindhold h1{
+  margin: 0;
+  margin-top: 0.4vw;
+  margin-left: 0.65vw;
+  display: inline-block;
+  font-size: 1.2vw;
+  float: left;
+}
+.login_input{
+  width: 20vw;
+  height: 2.5vw;
+  margin: 0;
+  margin-bottom: 2.5vw;
+  float: left;
+  background-color: #ffffff;
+}
+.login_registrerknap{
+  width: 8vw;
+  height: 2.5vw;
+  margin: 0;
+  float: left;
+  background-color: #158D8B;
+}
+.login_loginknap{
+  width: 8vw;
+  height: 2.5vw;
+  margin: 0;
+  float: right;
+  background-color: #158D8B;
+}
+
+
+
+/*generel syuling*/
+.forside{
+    background-color: black; /* fallback color */
+    background-image: url("../img/forside.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 81.8%;
+}
+
+.bluegradient{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 53, 141, 0.40);
+}
+
+.forsidemain{
+    height: 100%;
+    margin: 0 2vw 0 2vw;
+    display: grid;
+    grid-template-columns: repeat(24, 1fr );
+    grid-auto-columns: minmax(10vw, auto);
+    grid-template-rows: repeat(12, 1fr );
+    grid-gap: 1vw;
+}

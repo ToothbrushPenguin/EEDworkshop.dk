@@ -126,11 +126,13 @@ menu h3{
   width: 100%;
   margin: 0;
   background-color: #273F72;
+  display: inline-block;
 }
 .total_prismoms h1{
   font-size: 2vw;
   margin: 0;
   margin-left:0.8vw;
+  display: inline-block;
 
 }
 
