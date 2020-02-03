@@ -97,6 +97,7 @@ menu h3{
   border: 0;
   font-size: 1.2vw;
   color: white;
+  border-radius: 0.2vw;
 }
 .login_loginknap{
   width: 8vw;
@@ -107,6 +108,7 @@ menu h3{
   border: 0;
   font-size: 1.2vw;
   color: white;
+  border-radius: 0.2vw;
 }
 
 
