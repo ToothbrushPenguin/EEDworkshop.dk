@@ -65,7 +65,28 @@ menu h3{
   margin: 0;
   margin-bottom: 2.5vw;
   float: left;
-  background-color: #ffffff;
+}
+.login_input_text{
+  border: 0.1vw solid white;
+  border-radius: 0.2vw;
+  width: 100%;
+  margin-bottom: 2vw;
+  padding: 1vw 1vw;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; / Firefox /
+}
+
+:-ms-input-placeholder { / Internet Explorer 10-11 /
+  color: white;
+}
+
+::-ms-input-placeholder { / Microsoft Edge */
+  color: white;
 }
 .login_registrerknap{
   width: 8vw;
@@ -73,6 +94,9 @@ menu h3{
   margin: 0;
   float: left;
   background-color: #158D8B;
+  border: 0;
+  font-size: 1.2vw;
+  color: white;
 }
 .login_loginknap{
   width: 8vw;
@@ -80,6 +104,9 @@ menu h3{
   margin: 0;
   float: right;
   background-color: #158D8B;
+  border: 0;
+  font-size: 1.2vw;
+  color: white;
 }
 
 
